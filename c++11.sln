@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer", "Timer\Timer.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mutex", "Mutex\Mutex.vcxproj", "{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcxproj", "{79ED6489-1507-4648-A946-6BFA9662F9D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Debug|Win32.Build.0 = Debug|Win32
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Release|Win32.ActiveCfg = Release|Win32
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Release|Win32.Build.0 = Release|Win32
+		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Debug|Win32.Build.0 = Debug|Win32
+		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Release|Win32.ActiveCfg = Release|Win32
+		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
