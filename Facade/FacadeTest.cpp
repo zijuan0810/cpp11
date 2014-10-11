@@ -1,6 +1,8 @@
 #include "Facade.h"
 #include <iostream>
 #include <memory>
+#include <cstdlib>
+#include <cstdio>
 
 using namespace std;
 
