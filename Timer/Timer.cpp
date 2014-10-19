@@ -17,7 +17,7 @@ void test2() {
 void main()
 {
 	chrono::steady_clock::time_point t = chrono::steady_clock::now();
-	for (size_t i = 0; i < 100000000; i++) { }
+	for (size_t i = 0; i < 1000000; i++) { }
 	chrono::steady_clock::duration d = chrono::steady_clock::now() - t;
 	cout << "use time: " << d.count() << endl;
 	cout << "use time: " << chrono::duration_cast<chrono::microseconds>(d).count() << endl;
