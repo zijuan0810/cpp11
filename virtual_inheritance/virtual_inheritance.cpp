@@ -4,7 +4,11 @@ using namespace std;
 
 class Animal {
 public:
+	virtual int getAge() const { return age; }
 	virtual void eat() { cout << __FUNCTION__ << endl; }
+
+private:
+	int age;
 };
 
 // Two classes virtually inheriting Animal:
@@ -25,10 +29,7 @@ class Bat : public Mammal, public WingedAnimal {
 int main()
 {
 	Bat b;
-	b.eat();
-
-	Animal& a = b;
-	a.eat();
+	cout << b.getAge() << endl;
 
 	return 0;
 }
