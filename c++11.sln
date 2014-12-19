@@ -7,13 +7,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thread", "Thread\Thread.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Timer", "Timer\Timer.vcxproj", "{3A849B2C-4F22-4831-B1C3-AA2C5A6B43E3}"
 EndProject
-<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_inheritance", "virtual_inheritance\virtual_inheritance.vcxproj", "{06D21E26-B8F0-4039-90F5-6B35F5C14831}"
-=======
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mutex", "Mutex\Mutex.vcxproj", "{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcxproj", "{79ED6489-1507-4648-A946-6BFA9662F9D5}"
->>>>>>> 7e38cf40ba5caf356e3b5f3ba7f344d46e751711
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theads", "Theads", "{5A0FC5A7-0776-4DB5-BCA3-E4B152956961}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheadSimpleJoin", "Threads\TheadSimpleJoin\TheadSimpleJoin.vcxproj", "{4F02E232-69A2-4E0C-A77E-0122563C0289}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheadMutex", "Threads\TheadMutex\TheadMutex.vcxproj", "{374393F6-0F88-40DC-AD1A-03C93D12617C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheadVector", "Threads\TheadVector\TheadVector.vcxproj", "{94030525-1818-41A4-A8A9-186EF2BDDB4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +35,10 @@ Global
 		{3A849B2C-4F22-4831-B1C3-AA2C5A6B43E3}.Debug|Win32.Build.0 = Debug|Win32
 		{3A849B2C-4F22-4831-B1C3-AA2C5A6B43E3}.Release|Win32.ActiveCfg = Release|Win32
 		{3A849B2C-4F22-4831-B1C3-AA2C5A6B43E3}.Release|Win32.Build.0 = Release|Win32
-<<<<<<< HEAD
 		{06D21E26-B8F0-4039-90F5-6B35F5C14831}.Debug|Win32.ActiveCfg = Debug|Win32
 		{06D21E26-B8F0-4039-90F5-6B35F5C14831}.Debug|Win32.Build.0 = Debug|Win32
 		{06D21E26-B8F0-4039-90F5-6B35F5C14831}.Release|Win32.ActiveCfg = Release|Win32
 		{06D21E26-B8F0-4039-90F5-6B35F5C14831}.Release|Win32.Build.0 = Release|Win32
-=======
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Debug|Win32.Build.0 = Debug|Win32
 		{7259A93E-51E1-4670-81B0-B25ADB5BE6C5}.Release|Win32.ActiveCfg = Release|Win32
@@ -43,9 +47,25 @@ Global
 		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Debug|Win32.Build.0 = Debug|Win32
 		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Release|Win32.ActiveCfg = Release|Win32
 		{79ED6489-1507-4648-A946-6BFA9662F9D5}.Release|Win32.Build.0 = Release|Win32
->>>>>>> 7e38cf40ba5caf356e3b5f3ba7f344d46e751711
+		{4F02E232-69A2-4E0C-A77E-0122563C0289}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F02E232-69A2-4E0C-A77E-0122563C0289}.Debug|Win32.Build.0 = Debug|Win32
+		{4F02E232-69A2-4E0C-A77E-0122563C0289}.Release|Win32.ActiveCfg = Release|Win32
+		{4F02E232-69A2-4E0C-A77E-0122563C0289}.Release|Win32.Build.0 = Release|Win32
+		{374393F6-0F88-40DC-AD1A-03C93D12617C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{374393F6-0F88-40DC-AD1A-03C93D12617C}.Debug|Win32.Build.0 = Debug|Win32
+		{374393F6-0F88-40DC-AD1A-03C93D12617C}.Release|Win32.ActiveCfg = Release|Win32
+		{374393F6-0F88-40DC-AD1A-03C93D12617C}.Release|Win32.Build.0 = Release|Win32
+		{94030525-1818-41A4-A8A9-186EF2BDDB4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94030525-1818-41A4-A8A9-186EF2BDDB4B}.Debug|Win32.Build.0 = Debug|Win32
+		{94030525-1818-41A4-A8A9-186EF2BDDB4B}.Release|Win32.ActiveCfg = Release|Win32
+		{94030525-1818-41A4-A8A9-186EF2BDDB4B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F02E232-69A2-4E0C-A77E-0122563C0289} = {5A0FC5A7-0776-4DB5-BCA3-E4B152956961}
+		{374393F6-0F88-40DC-AD1A-03C93D12617C} = {5A0FC5A7-0776-4DB5-BCA3-E4B152956961}
+		{94030525-1818-41A4-A8A9-186EF2BDDB4B} = {5A0FC5A7-0776-4DB5-BCA3-E4B152956961}
 	EndGlobalSection
 EndGlobal
